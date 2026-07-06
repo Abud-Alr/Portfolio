@@ -1,0 +1,152 @@
+﻿
+Beoordelingsformulier â€“ Persoonlijk Portfolio
+
+Naam student: 
+Datum: 
+Klas: 
+Beoordelaar:
+Portfolio URL:
+
+Criterium
+âœ“
+Opmerkingen
+Algemeen
+Portfolio staat live (bereikbaar via URL)
+â˜
+Portfolio heeft een eigen .nl of .com domeinnaam
+â˜
+Portfolio draait op HTTPS (beveiligd)
+â˜
+Structuur & navigatie
+Eenvoudig te navigeren op mobiel Ã©n laptop
+â˜
+Belangrijke informatie snel vindbaar
+â˜
+Geen kapotte links
+â˜
+Geen kapotte afbeeldingen
+â˜
+Technische kwaliteit
+Werkt goed op mobiel in landscape Ã©n portretmodus
+â˜
+Nette broncode (geen uitgecommentarieerde code, geen overbodige witregels)
+â˜
+CSS classes zijn professioneel benoemd
+â˜
+CSS bevat geen onnodige / dode code
+â˜
+Weinig tot geen inline styling (bijv. style="background-color:#000")
+â˜
+Geen warnings of errors op validator.w3.org
+â˜
+Portfolio heeft een favicon
+â˜
+Geen fouten in de browserconsole
+â˜
+Vormgeving & UX
+Professionele uitstraling
+â˜
+Geen overduidelijke AI look-en-feel (generiek/template-achtig)
+â˜
+Duidelijk leesbare en prettige lettertypes
+â˜
+Goede padding rondom blokken, tekst en afbeeldingen
+â˜
+Toegankelijkheid
+HTML opgebouwd met semantische tags (<header>, <nav>, <footer>, <main>, etc.)
+â˜
+Werkt in Chrome, Firefox Ã©n Safari
+â˜
+Werkt met Ã©n zonder adblocker
+â˜
+Inhoud
+Over-mij / about-me sectie aanwezig
+â˜
+Professionele foto of introductievideo van de student
+â˜
+Net taalgebruik in alle teksten
+â˜
+Geen spelfouten
+â˜
+Teksten in correct Nederlands of Engels
+â˜
+Contactgegevens aanwezig (e-mail, evt. telefoonnummer)
+â˜
+Professioneel e-mailadres (bijv. naam@portfolio.nl, gÃ©Ã©n schoolmail of privemail)
+â˜
+LinkedIn-profiel gelinkt
+â˜
+GitHub-profiel gelinkt
+â˜
+Link naar cv aanwezig
+â˜
+Duidelijk overzicht van skills
+â˜
+Projecten
+4â€“5 projecten aanwezig
+â˜
+Niet alle projecten zijn schoolprojecten
+â˜
+Duidelijke projectbeschrijving
+â˜
+Eigen bijdrage beschreven
+â˜
+Gebruikte technieken benoemd
+â˜
+Resultaat zichtbaar via link naar werkend project of GitHub-code
+â˜
+SEO
+Professionele en passende <title>-tag aanwezig
+â˜
+Elke pagina heeft een unieke <title>-tag
+â˜
+Elke pagina heeft een <meta description>
+â˜
+Per pagina slechts 1 <h1>-element
+â˜
+Alle afbeeldingen voorzien van ALT-tekst
+â˜
+Laadtijd laptop: _____ sec     |     Laadtijd mobiel: _____ sec
+Afbeeldingen geoptimaliseerd (bijv. via tinypng.com)
+â˜
+Goede navigeerbaarheid op mobiel
+â˜
+Lighthouse score:   Performance: ___   Accessibility: ___   Best Practices: ___   SEO: ___
+
+
+
+
+
+
+WCAG â€“ Toegankelijkheid (Web Content Accessibility Guidelines)
+Voldoende contrast tussen tekst en achtergrondkleur
+â˜
+Lettergrootte niet te klein, teksten leesbaar op laptop Ã©n mobiel
+â˜
+Portfolio navigeerbaar met alleen toetsenbord (Tab, Enter, pijltjes)
+â˜
+Bonus
+Portfolio gebouwd met een framework of library (React, Vue, Svelte, etc.)
+â˜
+Eindresultaat & advies
+Tips voor de student:
+
+
+
+
+
+
+
+
+
+
+
+Zou jij de student uitnodigen voor een gesprek?    â˜ Ja, zeker!    â˜ Misschien    â˜ Nee, nog niet
+
+
+
+
+
+
+â˜ = niet aanwezig / niet voldaan     â˜‘ = aanwezig / voldaan     Vul opmerkingen in de rechterkolom in waar nodig.
+

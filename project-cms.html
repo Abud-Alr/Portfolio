@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demon Slayer Fan CMS — zelfstandig gebouwd Content Management Systeem met CRUD, database en adminpanel door Malek Alrajawy.">
+  <title>Demon Slayer Fan CMS — Malek Alrajawy Portfolio</title>
+  <link rel="icon" href="assets/images/logo_black.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Ga naar inhoud</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">
+        <img src="assets/images/logo.png" alt="Logo Malek Alrajawy" width="36" height="36">
+        <span>Malek Alrajawy</span>
+      </a>
+      <nav class="site-nav" aria-label="Hoofdnavigatie">
+        <a href="index.html">Home</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Thema wisselen">☀</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu openen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="project-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Broodkruimelpad">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="projecten.html">Projecten</a>
+          <span>/</span>
+          <span>CMS</span>
+        </nav>
+        <span class="section-label">Uitgelicht project</span>
+        <h1>Demon Slayer Fan CMS</h1>
+        <div class="project-hero-meta">
+          <span>Leerjaar 2 · Module 5.2</span>
+          <span>2025–2026</span>
+          <span>Individueel</span>
+          <span>Schoolproject</span>
+        </div>
+        <p>Zelfstandig gebouwd Content Management Systeem waarmee je karakters kunt toevoegen, bewerken en verwijderen — gekoppeld aan een database met beveiligde adminomgeving.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="project-showcase reveal">
+        <div class="project-showcase-main">
+          <img src="assets/images/CMS/Screenshot 2026-07-06 004436.png" alt="Demon Slayer Fan CMS — character gallery overzicht" width="1200" height="675">
+        </div>
+        <div class="project-showcase-thumbs">
+          <button type="button" class="active" data-src="assets/images/CMS/Screenshot 2026-07-06 004436.png" data-alt="CMS character gallery">
+            <img src="assets/images/CMS/Screenshot 2026-07-06 004436.png" alt="">
+          </button>
+          <button type="button" data-src="assets/images/CMS/Screenshot 2026-07-06 004458.png" data-alt="CMS admin panel">
+            <img src="assets/images/CMS/Screenshot 2026-07-06 004458.png" alt="">
+          </button>
+          <button type="button" data-src="assets/images/CMS/Screenshot 2026-07-06 004528.png" data-alt="CMS karakter toevoegen">
+            <img src="assets/images/CMS/Screenshot 2026-07-06 004528.png" alt="">
+          </button>
+          <button type="button" data-src="assets/images/CMS/Screenshot 2026-07-06 004600.png" data-alt="CMS responsive weergave">
+            <img src="assets/images/CMS/Screenshot 2026-07-06 004600.png" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="project-detail-grid">
+        <article class="reveal">
+          <h2>Over dit project</h2>
+          <p>
+            Voor module 5.2 heb ik een volledig CMS gebouwd met CRUD-functionaliteit.
+            Gebruikers kunnen karakters bekijken in een gallery, en via het adminpanel
+            content toevoegen, bewerken en verwijderen — inclusief image upload.
+          </p>
+          <p>
+            Ik ben trots op het feit dat ik dit zelfstandig heb opgezet, van database-structuur
+            tot een werkende beheeromgeving. De code-structuur was in het begin rommelig,
+            maar na herstructurering en feedback is het een solide project geworden.
+          </p>
+
+          <h3>Highlights</h3>
+          <ul class="project-highlights">
+            <li>Volledige CRUD voor karakters en content</li>
+            <li>Responsive design met image upload</li>
+            <li>Beveiligde admin-login en sessiebeheer</li>
+            <li>Database-structuur zelf ontworpen en geïmplementeerd</li>
+            <li>Demon Slayer-thema met professionele UI</li>
+          </ul>
+
+          <h3>Code snippet</h3>
+          <div class="code-block">
+            <pre><code>// Karakter ophalen uit database via API
+async function loadCharacters() {
+  const response = await fetch('api/characters.php');
+  if (!response.ok) throw new Error('Laden mislukt');
+  const data = await response.json();
+  renderGallery(data);
+}</code></pre>
+          </div>
+        </article>
+
+        <aside class="reveal">
+          <div class="card project-sidebar-card">
+            <h4>Mijn rol</h4>
+            <p>Full-stack developer — database-ontwerp, backend-logica, adminpanel en frontend.</p>
+          </div>
+          <div class="card project-sidebar-card">
+            <h4>Team</h4>
+            <p>Solo project — zelfstandig van ontwerp tot oplevering.</p>
+          </div>
+          <div class="card project-sidebar-card">
+            <h4>Technologieën</h4>
+            <div class="tech-list">
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+            </div>
+          </div>
+          <div class="card project-sidebar-card">
+            <h4>Links</h4>
+            <p><a href="https://github.com/Abud-Alr/Hobby-Website.git" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
+            <p><a href="https://u240910.gluwebsite.nl/demon_slayer_cms/" target="_blank" rel="noopener noreferrer">Live demo</a></p>
+          </div>
+          <a href="projecten.html" class="btn btn-secondary">← Alle projecten</a>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2026 Malek Alrajawy</span>
+        <span><a href="projecten.html">Meer projecten</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

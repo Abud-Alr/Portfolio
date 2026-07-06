@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neem contact op met Malek Alrajawy — e-mail, contactformulier en locatie in de regio Utrecht.">
+  <title>Contact — Malek Alrajawy Portfolio</title>
+  <link rel="icon" href="assets/images/logo_black.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Ga naar inhoud</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">
+        <img src="assets/images/logo.png" alt="Logo Malek Alrajawy" width="36" height="36">
+        <span>Malek Alrajawy</span>
+      </a>
+      <nav class="site-nav" aria-label="Hoofdnavigatie">
+        <a href="index.html">Home</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Thema wisselen">☀</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu openen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Broodkruimelpad">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact</span>
+        </nav>
+        <h1>Contact</h1>
+        <p>Interesse in samenwerking of een vraag? Neem gerust contact op.</p>
+      </div>
+    </div>
+
+    <section class="section section-compact">
+      <div class="container">
+        <div class="contact-grid">
+          <article class="card contact-info-card reveal">
+            <h2>Contactgegevens</h2>
+            <ul class="contact-info-list">
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">✉</span>
+                <div>
+                  <strong>E-mail</strong>
+                  <a href="mailto:abdulmalekalrajawy30@gmail.com">abdulmalekalrajawy30@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong>Regio</strong>
+                  <p>Utrecht, Nederland</p>
+                </div>
+              </li>
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">💻</span>
+                <div>
+                  <strong>GitHub</strong>
+                  <a href="https://github.com/Abud-Alr" target="_blank" rel="noopener noreferrer">github.com/Abud-Alr</a>
+                </div>
+              </li>
+              <li class="contact-info-item">
+                <span class="icon" aria-hidden="true">🎓</span>
+                <div>
+                  <strong>Opleiding</strong>
+                  <p>Grafisch Lyceum Utrecht — Software Development</p>
+                </div>
+              </li>
+            </ul>
+            <div id="map" role="img" aria-label="Kaart van Utrecht, Nederland"></div>
+          </article>
+
+          <article class="card contact-info-card reveal">
+            <h2>Stuur een bericht</h2>
+            <div id="form-status" role="status"></div>
+            <form id="contact-form" action="contact.php" method="post" novalidate>
+              <div class="form-group">
+                <label for="name">Naam *</label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="subject">Onderwerp *</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Bericht *</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Verstuur bericht</button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo">
+            <img src="assets/images/logo.png" alt="" width="32" height="32">
+            <span>Malek Alrajawy</span>
+          </a>
+          <p>Web Developer student · Grafisch Lyceum Utrecht</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigatie</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projecten.html">Projecten</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Professioneel</h4>
+          <ul>
+            <li><a href="https://github.com/Abud-Alr" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Malek Alrajawy</span>
+        <span>Gebouwd met HTML, CSS &amp; JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>

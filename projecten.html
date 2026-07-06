@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Overzicht van projecten door Malek Alrajawy — school- en eigen web development projecten met live demo's en GitHub links.">
+  <title>Projecten — Malek Alrajawy Portfolio</title>
+  <link rel="icon" href="assets/images/logo_black.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Ga naar inhoud</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">
+        <img src="assets/images/logo.png" alt="Logo Malek Alrajawy" width="36" height="36">
+        <span>Malek Alrajawy</span>
+      </a>
+      <nav class="site-nav" aria-label="Hoofdnavigatie">
+        <a href="index.html">Home</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Thema wisselen">☀</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu openen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Broodkruimelpad">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Projecten</span>
+        </nav>
+        <h1>Projecten</h1>
+        <p>Een overzicht van mijn school- en eigen projecten. Hover over een kaart voor een korte preview — als een game-trailer, kort maar krachtig.</p>
+      </div>
+    </div>
+
+    <section class="section section-compact">
+      <div class="container">
+        <div class="filter-tabs" role="tablist" aria-label="Projectfilters">
+          <button class="filter-tab active" type="button" data-filter="all" role="tab" aria-selected="true">Alles</button>
+          <button class="filter-tab" type="button" data-filter="featured" role="tab">Uitgelicht</button>
+          <button class="filter-tab" type="button" data-filter="school" role="tab">School</button>
+          <button class="filter-tab" type="button" data-filter="eigen" role="tab">Eigen</button>
+          <button class="filter-tab" type="button" data-filter="team" role="tab">Team</button>
+        </div>
+
+          <div class="projects-grid">
+
+          <!-- CMS -->
+          <article class="card project-card featured reveal" data-project-type="school" data-featured="true" data-team="solo">
+            <div class="project-card-media" data-trailer="assets/images/CMS/Screenshot 2026-07-06 004436.png|assets/images/CMS/Screenshot 2026-07-06 004458.png|assets/images/CMS/Screenshot 2026-07-06 004528.png|assets/images/CMS/Screenshot 2026-07-06 004600.png">
+              <img src="assets/images/CMS/Screenshot 2026-07-06 004436.png" alt="Demon Slayer Fan CMS homepage" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag tag-school">School</span>
+                <span class="tag">Individueel</span>
+              </div>
+              <h3><a href="project-cms.html">Demon Slayer Fan CMS</a></h3>
+              <p>Content Management Systeem met CRUD, database en adminpanel.</p>
+              <div class="project-card-footer">
+                <a href="project-cms.html" class="btn btn-ghost btn-sm">Details</a>
+                <a href="https://u240910.gluwebsite.nl/demon_slayer_cms/" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Live</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Utrechts Archief -->
+          <article class="card project-card featured reveal" data-project-type="school" data-featured="true" data-team="team">
+            <div class="project-card-media" data-trailer="assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134047.png|assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134115.png|assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134134.png|assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134200.png">
+              <img src="assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134047.png" alt="Het Utrechts Archief panorama viewer" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag tag-school">School</span>
+                <span class="tag tag-team">Team</span>
+              </div>
+              <h3><a href="project-utrechts-archief.html">Het Utrechts Archief</a></h3>
+              <p>Panorama-viewer voor historische documenten uit Utrecht.</p>
+              <div class="project-card-footer">
+                <a href="project-utrechts-archief.html" class="btn btn-ghost btn-sm">Details</a>
+                <a href="https://github.com/Samboterham/samalek.git" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Love U Festival -->
+          <article class="card project-card reveal" data-project-type="school" data-featured="false" data-team="solo">
+            <div class="project-card-media" data-trailer="assets/images/Love-U-Festival/Screenshot 2026-07-06 005427.png|assets/images/Love-U-Festival/Screenshot 2026-07-06 005442.png|assets/images/Love-U-Festival/Screenshot 2026-07-06 005504.png|assets/images/Love-U-Festival/Screenshot 2026-07-06 005608.png">
+              <img src="assets/images/Love-U-Festival/Screenshot 2026-07-06 005427.png" alt="Love U Festival mobiele app interface" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag tag-school">School</span>
+                <span class="tag">Individueel</span>
+              </div>
+              <h3><a href="project-love-u-festival.html">Love U Festival</a></h3>
+              <p>Festivalwebsite met programma, nieuws en mobiel-first design.</p>
+              <div class="project-card-footer">
+                <a href="project-love-u-festival.html" class="btn btn-ghost btn-sm">Details</a>
+                <a href="https://u-festival.onrender.com/" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Live</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Kiosk -->
+          <article class="card project-card reveal" data-project-type="school" data-featured="false" data-team="team">
+            <div class="project-card-media" data-trailer="assets/images/Kiosk/kiosk1.png|assets/images/Kiosk/Schermafbeelding_2026-06-24_133719.png|assets/images/Kiosk/Schermafbeelding_2026-06-24_133904.png|assets/images/Kiosk/Schermafbeelding_2026-06-24_134655.png">
+              <img src="assets/images/Kiosk/kiosk1.png" alt="Happy Herbivore kiosk startscherm" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag tag-school">School</span>
+                <span class="tag tag-team">Team</span>
+              </div>
+              <h3><a href="project-kiosk.html">Happy Herbivore Kiosk</a></h3>
+              <p>Interactieve kiosk met touch-interface en meertalige ondersteuning.</p>
+              <div class="project-card-footer">
+                <a href="project-kiosk.html" class="btn btn-ghost btn-sm">Details</a>
+                <a href="https://github.com/Samboterham/HamHalek.git" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+
+
+
+
+
+          <!-- Portfolio -->
+          <article class="card project-card reveal" data-project-type="eigen" data-featured="false" data-team="solo">
+            <div class="project-card-media">
+              <img src="assets/images/logo.png" alt="Portfolio website logo" loading="lazy" class="project-card-logo">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag">Eigen project</span>
+                <span class="tag">Individueel</span>
+              </div>
+              <h3><a href="index.html">Persoonlijk Portfolio</a></h3>
+              <p>Deze website — mijn visitekaartje als beginnend web developer.</p>
+              <div class="project-card-footer">
+                <a href="about.html" class="btn btn-ghost btn-sm">Over mij</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo">
+            <img src="assets/images/logo.png" alt="" width="32" height="32">
+            <span>Malek Alrajawy</span>
+          </a>
+          <p>Web Developer student · Grafisch Lyceum Utrecht</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigatie</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projecten.html">Projecten</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Professioneel</h4>
+          <ul>
+            <li><a href="https://github.com/Abud-Alr" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="cv.html">CV</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Malek Alrajawy</span>
+        <span>Gebouwd met HTML, CSS &amp; JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio van Malek Alrajawy — Web Developer student aan het Grafisch Lyceum Utrecht. Bekijk mijn projecten, skills en contactgegevens.">
+  <title>Malek Alrajawy — Web Developer Portfolio</title>
+  <link rel="icon" href="assets/images/logo_black.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Ga naar inhoud</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">
+        <img src="assets/images/logo.png" alt="Logo Malek Alrajawy" width="36" height="36">
+        <span>Malek Alrajawy</span>
+      </a>
+      <nav class="site-nav" aria-label="Hoofdnavigatie">
+        <a href="index.html">Home</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Thema wisselen">☀</button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu openen">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-greeting">Hallo, ik ben</p>
+          <h1 class="hero-title">
+            Malek Alrajawy
+            <span>Web Developer · 2e jaar GLU</span>
+          </h1>
+          <p class="hero-description">
+            Achtienjarige software development student met passie voor interactieve websites,
+            backend-koppelingen en zelfstandig problemen oplossen. Ik bouw dynamische
+            webapplicaties die functioneel én visueel sterk zijn.
+          </p>
+          <div class="hero-actions">
+            <a href="projecten.html" class="btn btn-primary">Bekijk projecten</a>
+            <a href="contact.html" class="btn btn-secondary">Neem contact op</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-value">8+</div>
+              <div class="hero-stat-label">Projecten</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">2</div>
+              <div class="hero-stat-label">Jaar WDV</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">GLU</div>
+              <div class="hero-stat-label">Utrecht</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <div class="hero-logo-ring">
+            <img src="assets/images/logo.png" alt="Monogram logo van Malek Alrajawy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Snelle toegang</span>
+          <h2>Alles binnen één klik</h2>
+          <p>Navigeer direct naar de belangrijkste onderdelen van mijn portfolio.</p>
+        </div>
+        <div class="quick-nav-grid">
+          <article class="card quick-nav-card reveal">
+            <div class="icon" aria-hidden="true">💼</div>
+            <h3><a href="projecten.html">Projecten</a></h3>
+            <p>School- en eigen projecten met live demo's en code.</p>
+          </article>
+          <article class="card quick-nav-card reveal">
+            <div class="icon" aria-hidden="true">👤</div>
+            <h3><a href="about.html">About</a></h3>
+            <p>Wie ik ben, mijn skills en toekomstplannen.</p>
+          </article>
+          <article class="card quick-nav-card reveal">
+            <div class="icon" aria-hidden="true">✉</div>
+            <h3><a href="contact.html">Contact</a></h3>
+            <p>Stuur een bericht of bekijk waar ik werk.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Uitgelicht</span>
+          <h2>Belangrijkste projecten</h2>
+          <p>De projecten die ik presenteer tijdens mijn meetmoment — met live demo en reflectie.</p>
+        </div>
+        <div class="featured-grid">
+          <article class="card project-card featured reveal">
+            <div class="project-card-media" data-trailer="assets/images/CMS/Screenshot 2026-07-06 004436.png|assets/images/CMS/Screenshot 2026-07-06 004458.png|assets/images/CMS/Screenshot 2026-07-06 004528.png|assets/images/CMS/Screenshot 2026-07-06 004600.png">
+              <img src="assets/images/CMS/Screenshot 2026-07-06 004436.png" alt="Screenshot van het Demon Slayer Fan CMS" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag tag-school">School</span>
+                <span class="tag">Individueel</span>
+              </div>
+              <h3><a href="project-cms.html">Demon Slayer Fan CMS</a></h3>
+              <p>Zelfstandig CMS met CRUD, database en adminpanel — van ontwerp tot oplevering.</p>
+              <div class="project-card-footer">
+                <a href="project-cms.html" class="btn btn-ghost btn-sm">Details</a>
+                <a href="https://u240910.gluwebsite.nl/demon_slayer_cms/" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Live demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project-card featured reveal">
+            <div class="project-card-media" data-trailer="assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134047.png|assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134115.png|assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134134.png|assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134200.png">
+              <img src="assets/images/Het-Utrechts-Archief/Screenshot 2026-06-30 134047.png" alt="Screenshot van Het Utrechts Archief project" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="project-card-tags">
+                <span class="tag tag-school">School</span>
+                <span class="tag tag-team">Team</span>
+              </div>
+              <h3><a href="project-utrechts-archief.html">Het Utrechts Archief</a></h3>
+              <p>Interactieve panorama-viewer voor historische documenten — sterke teamsamenwerking.</p>
+              <div class="project-card-footer">
+                <a href="project-utrechts-archief.html" class="btn btn-ghost btn-sm">Details</a>
+                <a href="https://github.com/Samboterham/samalek.git" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="reveal" style="margin-top: 2rem; text-align: center;">
+          <a href="projecten.html" class="btn btn-primary">Alle projecten bekijken</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="collab-banner reveal">
+          <span class="icon" aria-hidden="true">🤝</span>
+          <p>
+            <strong>Samenwerken in teams</strong> — Van Scrum Master bij Annex Bios tot soepele samenwerking
+            bij Het Utrechts Archief en de Kiosk. Ik leer elke sprint bij over plannen, communiceren en leveren.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo">
+            <img src="assets/images/logo.png" alt="" width="32" height="32">
+            <span>Malek Alrajawy</span>
+          </a>
+          <p>Web Developer student · Grafisch Lyceum Utrecht · Profiel Web Development</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigatie</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projecten.html">Projecten</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Professioneel</h4>
+          <ul>
+            <li><a href="https://github.com/Abud-Alr" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="mailto:abdulmalekalrajawy30@gmail.com">E-mail</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Malek Alrajawy</span>
+        <span>Gebouwd met HTML, CSS &amp; JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
